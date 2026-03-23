@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ada Lovelace — A Primeira Programadora</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero__noise"></div>
+        <div class="hero__grid-lines"></div>
+        <div class="hero__content">
+            <p class="hero__label">1815 — 1852</p>
+            <h1 class="hero__title">Ada<br/><em>Lovelace</em></h1>
+            <p class="hero__subtitle">A mulher que imaginou a computação<br/>um século antes do computador existir.</p>
+            <a href="#biografia" class="hero__cta">Conheça a história</a>
+        </div>
+        <div class="hero__image-frame">
+            <img src="imagens/ada-portrait.jpg" alt="Retrato de Ada Lovelace, matemática e escritora britânica" class="hero__img" onerror="this.style.display='none'; this.parentElement.classList.add('no-img')" />
+            <div class="hero__image-placeholder" aria-hidden="true">
+                <span>ADA</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- DATAS IMPORTANTES -->
+    <section class="timeline" id="datas">
+        <h2 class="section-title">Linha do Tempo</h2>
+        <div class="timeline__track">
+            <div class="timeline__item">
+                <span class="timeline__year">1815</span>
+                <p class="timeline__desc">Nascimento em Londres, filha do poeta Lord Byron.</p>
+            </div>
+            <div class="timeline__item">
+                <span class="timeline__year">1833</span>
+                <p class="timeline__desc">Conhece Charles Babbage e a Máquina Analítica.</p>
+            </div>
+            <div class="timeline__item">
+                <span class="timeline__year">1843</span>
+                <p class="timeline__desc">Publica as Notas A–G: o primeiro algoritmo da história.</p>
+            </div>
+            <div class="timeline__item">
+                <span class="timeline__year">1852</span>
+                <p class="timeline__desc">Falece aos 36 anos, em Londres.</p>
+            </div>
+            <div class="timeline__item">
+                <span class="timeline__year">1980</span>
+                <p class="timeline__desc">O Departamento de Defesa dos EUA nomeia a linguagem "Ada" em sua homenagem.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BIOGRAFIA -->
+    <section class="bio" id="biografia">
+        <div class="bio__text">
+            <h2 class="section-title">Biografia</h2>
+            <p>Augusta Ada King, Condessa de Lovelace, nasceu em 10 de dezembro de 1815 em Londres. Filha do famoso poeta Lord Byron, Ada nunca o conheceu de verdade — ele abandonou a família logo após seu nascimento.</p>
+            <p>Sua mãe, Anne Isabella Milbanke, temendo que Ada herdasse o "temperamento poético" do pai, incentivou intensamente os estudos de matemática e lógica desde a infância. Esse caminho levaria Ada a se tornar uma das mentes mais visionárias do
+                século XIX.</p>
+            <p>Aos 17 anos, Ada conheceu o matemático Charles Babbage, inventor da Máquina Analítica — um precursor mecânico do computador moderno. Ada ficou fascinada e começou uma colaboração que mudaria a história da ciência.</p>
+        </div>
+        <div class="bio__image-wrap">
+            <img src="imagens/ada-work.jpg" alt="Ilustração de Ada Lovelace trabalhando em seus cálculos matemáticos" class="bio__img" onerror="this.style.display='none'" />
+        </div>
+    </section>
+
+    <!-- REALIZAÇÕES -->
+    <section class="achievements" id="realizacoes">
+        <h2 class="section-title section-title--center">Principais Realizações</h2>
+        <div class="achievements__grid">
+            <div class="achievements__card">
+                <span class="achievements__icon">⌨</span>
+                <h3>Primeiro Algoritmo</h3>
+                <p>Em 1843, Ada escreveu o que é amplamente considerado o primeiro algoritmo destinado a ser processado por uma máquina — para calcular os números de Bernoulli.</p>
+            </div>
+            <div class="achievements__card">
+                <span class="achievements__icon">◈</span>
+                <h3>Visão da Computação</h3>
+                <p>Ela foi além de Babbage ao imaginar que a máquina poderia manipular símbolos, compor música e muito mais — não apenas calcular números.</p>
+            </div>
+            <div class="achievements__card">
+                <span class="achievements__icon">✦</span>
+                <h3>Tradução e Notas A–G</h3>
+                <p>Traduziu um artigo de Luigi Menabrea sobre a Máquina Analítica e adicionou notas próprias três vezes mais longas que o texto original.</p>
+            </div>
+            <div class="achievements__card">
+                <span class="achievements__icon">◉</span>
+                <h3>Legado na Linguagem Ada</h3>
+                <p>Em 1980, o Departamento de Defesa dos EUA batizou uma linguagem de programação de "Ada" em sua homenagem — reconhecimento tardio, mas eterno.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESAFIOS -->
+    <section class="challenges" id="desafios">
+        <h2 class="section-title">Desafios Enfrentados</h2>
+        <div class="challenges__list">
+            <div class="challenges__item">
+                <span class="challenges__num">01</span>
+                <div>
+                    <h3>Preconceito de Gênero</h3>
+                    <p>No século XIX, mulheres eram excluídas da vida acadêmica e científica formal. Ada precisou estudar de forma privada e lutar para ter seu trabalho levado a sério.</p>
+                </div>
+            </div>
+            <div class="challenges__item">
+                <span class="challenges__num">02</span>
+                <div>
+                    <h3>Saúde Frágil</h3>
+                    <p>Sofreu de diversas doenças ao longo da vida, incluindo sarampo severo na infância que afetou sua visão e mobilidade temporariamente.</p>
+                </div>
+            </div>
+            <div class="challenges__item">
+                <span class="challenges__num">03</span>
+                <div>
+                    <h3>Reconhecimento Póstumo</h3>
+                    <p>Seu trabalho foi amplamente ignorado até meados do século XX. Só décadas depois da invenção do computador moderno o mundo percebeu o que Ada havia previsto.</p>
+                </div>
+            </div>
+            <div class="challenges__item">
+                <span class="challenges__num">04</span>
+                <div>
+                    <h3>Morte Prematura</h3>
+                    <p>Faleceu aos 36 anos de câncer uterino, deixando um legado imenso que ela mesma nunca viu completamente realizado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CURIOSIDADES (JavaScript interativo) -->
+    <section class="curiosities" id="curiosidades">
+        <h2 class="section-title section-title--center">Curiosidades</h2>
+        <p class="curiosities__intro">Clique nas cartas para revelar cada curiosidade sobre Ada.</p>
+        <div class="curiosities__cards" id="curio-cards">
+            <div class="curio-card" onclick="flipCard(this)">
+                <div class="curio-card__inner">
+                    <div class="curio-card__front">
+                        <span>?</span>
+                        <p>Curiosidade #1</p>
+                    </div>
+                    <div class="curio-card__back">
+                        <p>Ada nunca conheceu seu pai, Lord Byron — um dos maiores poetas ingleses. Ele deixou a família quando ela tinha apenas um mês de vida.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="curio-card" onclick="flipCard(this)">
+                <div class="curio-card__inner">
+                    <div class="curio-card__front">
+                        <span>?</span>
+                        <p>Curiosidade #2</p>
+                    </div>
+                    <div class="curio-card__back">
+                        <p>Aos 12 anos, Ada queria construir uma máquina de voar. Ela estudou a anatomia de pássaros e chegou a planejar asas feitas com seda e arame.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="curio-card" onclick="flipCard(this)">
+                <div class="curio-card__inner">
+                    <div class="curio-card__front">
+                        <span>?</span>
+                        <p>Curiosidade #3</p>
+                    </div>
+                    <div class="curio-card__back">
+                        <p>Ada chamava sua abordagem de "ciência poética" — combinando imaginação artística com rigor matemático. Para ela, as duas coisas eram inseparáveis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="curio-card" onclick="flipCard(this)">
+                <div class="curio-card__inner">
+                    <div class="curio-card__front">
+                        <span>?</span>
+                        <p>Curiosidade #4</p>
+                    </div>
+                    <div class="curio-card__back">
+                        <p>O "Ada Lovelace Day", celebrado toda segunda terça-feira de outubro, é um dia mundial dedicado a celebrar mulheres na ciência, tecnologia, engenharia e matemática.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn-reset" onclick="resetCards()">↺ Virar todas de volta</button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>"A imaginação é a faculdade descobridora por excelência."</p>
+        <span>— Ada Lovelace, 1843</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
