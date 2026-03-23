@@ -57,5 +57,5 @@ LandingPage - (seu nome)/
 
 ## Publicação
 
-- **Repositório GitHub:** `https://github.com/(seu-usuario)/LandingPage-(seu-nome)`
-- **GitHub Pages:** `https://(seu-usuario).github.io/LandingPage-(seu-nome)/`
+- **Repositório GitHub:** [`https://github.com/(lVitorSouza)/LandingPage-(lVitorSouza)`](https://lvitorsouza.github.io/Lading-Page---Ada-Lovelace/)
+- **GitHub Pages:** https://lvitorsouza.github.io/Lading-Page---Ada-Lovelace/
